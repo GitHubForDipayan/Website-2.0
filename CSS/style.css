@@ -1,0 +1,149 @@
+/***************************** Tag Selectors *****************************/
+
+body{
+    margin: 0px;
+    border-style: none;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+}
+
+h1{
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 4rem; /*100% = 16px; 400% = 64px; Also 16px = 100% = 1em*/
+    color: #66BFBF;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    color: #66BFBF;
+}
+
+h3{
+    color: #66BFBF;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    height: 2px;
+    width: 5%;
+    border-width: 5px;
+    color: #EAF6F6;
+}
+
+p{
+    line-height: 2;
+}
+
+/***************************** Class Selectors *****************************/
+
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 30px 0 30px 0;
+    color: #EAF6F6;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bottom-cloud{
+    position: absolute;
+    bottom: 55%;
+    left: 25%;
+}
+
+.btn{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+
+    background-color: #4bb7b7;
+    color: #EAF6F6;
+}
+
+.contact-me{
+    padding: 50px 0 50px 0;
+}
+
+.profile{
+    padding: 50px 0 50px 0;
+}
+
+.footer-link{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    padding: 5px 25px 5px 25px;
+    color: #11999E;
+    font-size: small;
+}
+
+.middle-container-text{
+    padding-top: 15px;
+    color: #40514E;
+}
+
+
+/* .skill-desc1{
+
+    clear: left; "clear" Prevents image from wrapping around the text. Since "clear: left" is used so this property won't allow anything to be wrapped to the left.
+
+    margin-top: 20px;
+}
+*/
+   
+.skills{
+    padding: 50px 0 50px 0;
+}
+
+.skill-img1{
+    width: 150px;;
+    border-radius: 50%; 
+    float: left;  /* To wrap text to the right of the image thus the image is floating to the left of the image. So "float: left" is used. */
+    margin-right: 30px;  
+}
+
+.skill-img2{
+    width: 150px;;
+    border-radius: 50%;
+    float: right;
+    margin-left: 30px;  
+}
+
+.skill-row{
+    padding: 30px;
+    width: 50%;
+    margin: 20px auto 20px auto;
+    text-align: justify;
+}
+
+.top-container{
+    background-color:rgb(238, 253, 255);
+    height: 100%;
+    margin: 0px;
+    padding: 100px 20px 70px 20px;
+    text-align: center;
+    position: relative;
+}
+
+
+.top-cloud{
+    position: absolute;
+    top: 12%;
+    right: 25%;
+}
+
+/***************************** Id Selectors *****************************/
+
+#aProgrammer{
+    font-size: 2rem;
+    margin: 1rem auto 1rem auto;
+}
+
+#dp{
+    height: 200px;
+    padding: 20px 0 20px 0;
+}
+
