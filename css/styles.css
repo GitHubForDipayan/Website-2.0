@@ -131,8 +131,7 @@ body{
 }
 
 .pricing-heading{
-    font-family: 'Montserrat', sans-serif;
-    
+    font-family: 'Montserrat', sans-serif;    
 }
 
 /* Call to Action Section */
@@ -142,7 +141,6 @@ body{
     padding: 7% 15%;
     background-color: #ff4c68;
     color: #fff;
-
 }
 
 .cta-button{
@@ -158,7 +156,6 @@ body{
 }
 
 /* Footer Section */
-
 
 #footer{
     padding: 5% 0 5% 0;
@@ -191,7 +188,6 @@ body{
     background-color: #ff4c68;
 }
 
-
 /* Media Query */
 
 @media (max-width: 990px)
@@ -204,14 +200,6 @@ body{
 
         transform: rotate(0);
         position: static;
-        width:40%
-        
-    }
-}
-
-@media (background-color: #fff)
-{
-    #navbar{
-
+        width:40%        
     }
 }
