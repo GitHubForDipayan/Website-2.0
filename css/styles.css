@@ -1,205 +1,212 @@
 /******************************************* Tag Selectors*******************************************/
 
-body{
-    font-family: 'Montserrat-Black', sans-serif;
+body {
+  font-family: "Montserrat-Black", sans-serif;
 }
 
 /******************************************* Class Selectors*******************************************/
 
-
-
-.container-fluid{
-    padding: 3% 8% 4% 8%;
+.container-fluid {
+  padding: 3% 8% 4% 8%;
 }
 
-.download-btn{
-    border-radius: 10px;
-    margin: 5% 3% 5% 0;
+.download-btn {
+  border-radius: 10px;
+  margin: 5% 3% 5% 0;
 }
 
-.header-text{
-    font-family: 'Montserrat-Black', sans-serif; /*Black is not for color but it is making the txt Bolder */
-    font-size: 3.5rem;
-    line-height: 1.5;
-    font-weight: 900;
-    color: white;
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+.header-text {
+  font-family: "Montserrat-Black", sans-serif; /*Black is not for color but it is making the txt Bolder */
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: white;
 }
 
 /* Navigation Bar */
 
-.navbar{
-    padding: 5px 4% 5px 4%;
+.navbar {
+  padding: 5px 4% 5px 4%;
 }
 
-.navbar-brand{
-    font-size: 1.5rem;
-    font-weight: 600;
-    font-family: "Ubuntu";
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-family: "Ubuntu";
 }
 
-.nav-item{
-    padding: 0 16px; /* Top & Bottom is 0px and Left & Right is 16px. */
+.nav-item {
+  padding: 0 16px; /* Top & Bottom is 0px and Left & Right is 16px. */
 }
 
-.nav-link{
-    font-size: 1.1rem;
-    font-family: "Monteserrat-Light", sans-serif;
+.nav-link {
+  font-size: 1.1rem;
+  font-family: "Monteserrat-Light", sans-serif;
 }
 
 /* Features Section */
 
-#features{
-    padding: 10% 15%;
-    background-color: #fff;
-    position: relative;
+#features {
+  padding: 10% 15%;
+  background-color: #fff;
+  position: relative;
 }
-.features-description{
-    color: #8f8f8f;
-    text-align: center;
-}
-
-.features-heading{
-    font-family: 'Montserrat-Bold', sans-serif;
-    font-size: 1.5rem;
-    text-align: center;
+.features-description {
+  color: #8f8f8f;
+  text-align: center;
 }
 
-.icons{
-    margin: 0 auto 15px auto;
-    color:#ef8172;
-    font-size: 2.5rem;
+.features-heading {
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
 }
 
-.icons:hover{
-    color: #ff4c68;
+.icons {
+  margin: 0 auto 15px auto;
+  color: #ef8172;
+  font-size: 2.5rem;
 }
 
-.row{
-    margin: 5px 40px;
+.icons:hover {
+  color: #ff4c68;
 }
 
+.row {
+  margin: 5px 40px;
+}
 
 /* Testimonials Section */
 
-#testimonials{
-    
-    text-align: center;
-    background-color:#ef8172;
-    color: #fff;
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
 }
 
-.testimonial-text{
-    font-family: 'Montserrat-Bold', sans-serif;
-    font-size: 3rem;
-    font-weight: bold;
-    line-height: 1.5;
+.testimonial-text {
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.5;
 }
 
-.testimonial-image{
-    border-radius: 100%;
-    width: 15%;
-    margin: 20px;
+.testimonial-image {
+  border-radius: 100%;
+  width: 15%;
+  margin: 20px;
 }
 
-.carousel-item{
-    padding: 7% 10% ;
+.carousel-item {
+  padding: 7% 10%;
 }
 
 /* Press Section */
 
-#press{
-    background-color: #ef8172;
-    text-align: center;
-    padding-bottom: 3%;
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
 }
 
-.press-img{
-    width: 11%;
-    margin: 20px 20px 50px 20px;
+.press-img {
+  width: 11%;
+  margin: 20px 20px 50px 20px;
 }
 
 /* Pricing Section */
 
-#pricing{
-    font-family: 'Montserrat', sans-serif;
-    padding: 80px;
-    text-align: center;
+#pricing {
+  font-family: "Montserrat", sans-serif;
+  padding: 80px;
+  text-align: center;
 }
 
-.pricing-column{
-    padding: 3% 2%;
+.pricing-column {
+  padding: 3% 2%;
 }
 
-.pricing-heading{
-    font-family: 'Montserrat', sans-serif;    
+.pricing-heading {
+  font-family: "Montserrat", sans-serif;
 }
 
 /* Call to Action Section */
 
-#cta{
-    text-align: center;
-    padding: 7% 15%;
-    background-color: #ff4c68;
-    color: #fff;
+#cta {
+  text-align: center;
+  padding: 7% 15%;
+  color: #fff;
 }
 
-.cta-button{
-    margin: 30px 10px 10px 10px;
+.cta-button {
+  margin: 30px 10px 10px 10px;
 }
 
-.cta-heading{
-    font-family: 'Montserrat-Black', sans-serif;
-    font-size: 3rem;
-    line-height: 1.5;
-    font-weight: 900;
-    padding: 10px 0 10px 0;
+.cta-heading {
+  font-family: "Montserrat-Black", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+  padding: 10px 0 10px 0;
 }
 
 /* Footer Section */
 
-#footer{
-    padding: 5% 0 5% 0;
-    background-color: #fff;
-    color: lightgray;
-    font-size: 0.9rem;
-    text-align: center;
+#footer {
+  padding: 5% 0 5% 0;
+  background-color: #fff;
+  color: lightgray;
+  font-size: 0.9rem;
+  text-align: center;
 }
 
-.footer-icon{
-    font-size: 1.5rem;
-    margin: 10px 10px 40px 10px;
+.footer-icon {
+  font-size: 1.5rem;
+  margin: 10px 10px 40px 10px;
 }
 
-.footer-icon:hover{
-    color:#ff4c68;
+.footer-icon:hover {
+  color: #ff4c68;
 }
 
 /******************************************* ID Selectors*******************************************/
 
-#iphone-img{
-   width: 20%;
-   transform: rotate(24deg);
-   position: absolute;  
-   right: 18%;
-   top: 20%;
-}
-
-#title{
-    background-color: #ff4c68;
+#iphone-img {
+  width: 20%;
+  transform: rotate(24deg);
+  position: absolute;
+  right: 18%;
+  top: 20%;
 }
 
 /* Media Query */
 
-@media (max-width: 990px)
-{
-    #title{
-        text-align: center;
-    }
+@media (max-width: 990px) {
+  #title {
+    text-align: center;
+  }
 
-    #iphone-img{
-
-        transform: rotate(0);
-        position: static;
-        width:40%        
-    }
+  #iphone-img {
+    transform: rotate(0);
+    position: static;
+    width: 40%;
+  }
 }
